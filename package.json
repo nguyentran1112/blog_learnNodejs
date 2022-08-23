@@ -2,17 +2,19 @@
   "name": "blog",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app/index.js",
   "scripts": {
-    "start": "nodemon --inspect index.js",
+    "start": "nodemon app/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6"
   },
   "devDependencies": {
+    "morgan": "^1.10.0",
     "nodemon": "^2.0.19"
   }
 }
